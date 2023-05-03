@@ -26,8 +26,15 @@ header:not(#navbar header){border-bottom: 2px solid #121212;width: fit-content;p
 p{font-size: 16px;padding: 6px 0px 2px 0px;}
 ul, ol{padding: 10px 30px;background-color: #e2e2e2;width: fit-content;}
 pre{
-    padding: 6px 10px;width: fit-content;
+    padding: 6px 2rem;width: fit-content;
     background-color: #121212;color: #e2e2e2;
+    position: relative;
+}
+pre i {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
